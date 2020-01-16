@@ -92,9 +92,4 @@ write.table(mrep,paste(output.prefix, "merged_report.tsv",sep="."),sep="\t",quot
 go[["input"]] = all_vcfs
 go[["gene_dictionary"]] = lt
 saveRDS(go, file = paste(output.prefix, "RDS",sep="."))
-saveRDS()
-# Save Output
-#write.table(dndsout$sel_cv,paste(output.prefix,"tsv",sep="."),sep="\t",quote=F,col.names = T,row.names = F)
-#print(output.prefix)
 
-#write.table(all_vcfs,"activedriver_input.tsv",sep="\t",quote = F,row.names = F,col.names = T)
