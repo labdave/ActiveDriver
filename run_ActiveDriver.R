@@ -1,7 +1,7 @@
 library(optparse)
 option_list <- list ( 
   make_option(c("-o", "--outputdir"), dest = "out_dir", type = "character", help = "output dir name"),
-  make_option(c("-p", "--refpath"), dest = "ref_path", type = "character", help = "reference file path"),
+  make_option(c("-r", "--refpath"), dest = "ref_path", type = "character", help = "reference file path"),
   make_option (c("-f","--filelist"),default="blah.txt", help="comma separated list of files (default %default)")
   
 )
